@@ -46,20 +46,20 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     color: #ffffff;
-    background: #EF233C;
+    background: #39A2DB;
     border: 2px solid transparent;
     border-radius: 0;
-    box-shadow: inset 0 0 0 50px #EF233C;
+    box-shadow: inset 0 0 0 50px #39A2DB;
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
 }
 
 .btn:hover {
-    color: #EF233C;
+    color: #39A2DB;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #EF233C;
-    border-color: #EF233C;
+    box-shadow: inset 0 0 0 0 #39A2DB;
+    border-color: #39A2DB;
 }
 
 #loader {
@@ -247,10 +247,10 @@ a:focus {
 .hero {
     position: relative;
     width: 100%;
-    margin-bottom: 45px;
+    margin-bottom: 300px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(rgba(239, 35, 60, .95), rgba(239, 35, 60, .95)), url(../img/hero-bg.jpg);
+    /* background: linear-gradient(rgba(239, 35, 60, .95), rgba(239, 35, 60, .95)), url(../img/hero-bg.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -266,14 +266,16 @@ a:focus {
     padding-right: 75px;
 }
 
-.hero .hero-image img {
+.hero .hero-image .img {
     max-width: 80%;
     max-height: 80%;
 }
 
 .hero .hero-content {
+    margin-top: 20%;
+    margin-left: 10%;
     position: relative;
-    padding-left: 75px;
+    padding-left: 100px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -316,7 +318,7 @@ a:focus {
 
 .hero .hero-btn .btn {
     margin-top: 35px;
-    color: #EF233C;
+    color: #51C4D3;
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
 }
@@ -441,7 +443,7 @@ a:focus {
     top: 11px;
     right: 0;
     left: -30px;
-    background: #EF233C;
+    background: #51C4D3;
     z-index: -1;
 }
 
@@ -452,7 +454,7 @@ a:focus {
     height: 3px;
     top: 11px;
     left: 3px;
-    background: #EF233C;
+    background: #51C4D3;
     z-index: 1;
 }
 
@@ -534,7 +536,7 @@ a:focus {
 
 .about .progress .progress-bar {
     width: 0px;
-    background: #EF233C;
+    background: #39A2DB;
     border-radius: 10px;
     transition: 2s;
 }
@@ -567,7 +569,7 @@ a:focus {
     content: '';
     position: absolute;
     width: 2px;
-    background: #EF233C;
+    background: #00ADB5;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -599,7 +601,7 @@ a:focus {
     top: 48px;
     right: -8px;
     background: #ffffff;
-    border: 2px solid #EF233C;
+    border: 2px solid #00ADB5;
     border-radius: 16px;
     z-index: 1;
 }
@@ -631,7 +633,7 @@ a:focus {
     top: 44px;
     font-size: 16px;
     font-weight: 600;
-    color: #EF233C;
+    color: #7C83FD;
     text-transform: uppercase;
     letter-spacing: 1px;
     z-index: 1;
@@ -745,7 +747,7 @@ a:focus {
 }
 
 .service .service-item:hover {
-    box-shadow: inset 800px 0 0 0 #EF233C;
+    box-shadow: inset 800px 0 0 0 #00ADB5;
 }
 
 .service .service-icon {
@@ -755,14 +757,14 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #EF233C;
+    border: 1px solid #00ADB5;
     background: #ffffff;
 }
 
 .service .service-icon i {
     position: relative;
     font-size: 60px;
-    color: #EF233C;
+    color: #7C83FD;
     transition: .3s;
 }
 
@@ -830,10 +832,10 @@ a:focus {
     font-size: 14px;
     font-weight: 600;
     color: #ffffff;
-    background: #EF233C;
+    background: #00ADB5;
     border: 2px solid transparent;
     border-radius: 0;
-    box-shadow: inset 0 0 0 50px #EF233C;
+    box-shadow: inset 0 0 0 50px #51C4D3;
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
@@ -841,10 +843,10 @@ a:focus {
 
 .portfolio #portfolio-filter li:hover,
 .portfolio #portfolio-filter li.filter-active {
-    color: #EF233C;
+    color: #51C4D3;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #EF233C;
-    border-color: #EF233C;
+    box-shadow: inset 0 0 0 0 #51C4D3;
+    border-color: #00ADB5;
 }
 
 .portfolio .portfolio-item {
@@ -906,10 +908,10 @@ a:focus {
 }
 
 .portfolio .portfolio-item:hover a.btn {
-    color: #EF233C;
+    color: #51C4D3;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #EF233C;
-    border-color: #EF233C;
+    box-shadow: inset 0 0 0 0 #51C4D3;
+    border-color: #00ADB5;
 }
 
 
@@ -921,7 +923,7 @@ a:focus {
     width: 100%;
     margin: 45px 0;
     padding: 90px 0;
-    background: #EF233C;
+    background: #7C83FD;
 }
 
 .banner .container {
@@ -958,7 +960,7 @@ a:focus {
 
 .banner .banner-text .btn {
     margin-top: 15px;
-    color: #EF233C;
+    color: #00ADB5;
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
 }
@@ -1042,7 +1044,7 @@ a:focus {
 }
 
 .price .price-item.featured-item h2 {
-    color: #EF233C;
+    color: #00ADB5;
 }
 
 .price .price-body {
@@ -1129,7 +1131,7 @@ a:focus {
 }
 
 .team .team-text h2 {
-    color: #EF233C;
+    color: #00ADB5;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 5px;
@@ -1168,7 +1170,7 @@ a:focus {
 }
 
 .team .team-item:hover {
-    box-shadow: inset 800px 0 0 0 #EF233C;
+    box-shadow: inset 800px 0 0 0 #00ADB5;
 }
 
 .team .team-item:hover .team-img img {
@@ -1218,7 +1220,7 @@ a:focus {
     position: relative;
     margin: 45px 0;
     padding: 90px 0;
-    background: #EF233C;
+    background: #7C83FD;
 }
 
 .testimonial .container {
@@ -1270,7 +1272,7 @@ a:focus {
 }
 
 .testimonial .testimonial-text h3 {
-    color: #EF233C;
+    color: #00ADB5;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -1308,11 +1310,10 @@ a:focus {
     position: relative;
     width: 100%;
     margin: 0 0;
-    background: #EF233C;
+    background: #7C83FD;
 }
 
-.contact .container-fluid {
-    border: 1px solid black;
+.contact .container-f {
     background: url(../img/contact.png) left center no-repeat;
     background-size: contain;
     /* height: 620px; */
@@ -1320,15 +1321,15 @@ a:focus {
 
 .contact .contact-form {
     position: relative;
-    padding: 90px 0 90px 45px;
-    background: #EF233C;
+    padding: 40px 0 80px 45px;
+    background: #7C83FD;
 }
 
 .contact .contact-form input {
     color: #ffffff;
-    padding: 15px 0;
+    padding: 25px 0;
     background: none;
-    border-radius: 0;
+    border-radius: 12px;
     border: none;
     resize: none;
     border-bottom: 1px solid rgba(256, 256, 256, .5);
@@ -1345,7 +1346,11 @@ a:focus {
 }
 
 .contact .contact-form .form-control::placeholder {
-    color: #ffffff;
+    color: #000;
+    opacity: 1;
+}
+.contact .contact-form .form-control:hover::placeholder {
+    color: #fff;
     opacity: 1;
 }
 
@@ -1470,7 +1475,7 @@ a:focus {
 .footer {
     position: relative;
     margin-top: 45px;
-    background: #EF233C;
+    background: #7C83FD;
 }
 
 .footer .container-fluid {

@@ -22,6 +22,7 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
     </head>
 
     <body data-spy="scroll" data-target=".navbar" data-offset="51">
@@ -53,10 +54,12 @@
 
 
         <!-- Hero Start -->
+        <div id="particles-background" class="vertical-centered-box" ></div>
+        <div id="particles-foreground" class="vertical-centered-box" ></div>
         <div class="hero" id="home">
             <div class="container-fluid">
                 <div class="row align-items-center">
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-sm-12 col-md-12">
                         <div class="hero-content">
                             <div class="hero-text">
                                 <p>We Are</p>
@@ -72,7 +75,7 @@
                     </div>
                     <div class="col-sm-12 col-md-6 d-none d-md-block">
                         <div class="hero-image">
-                            <img src="img/hero.png" alt="Hero Image">
+                            
                         </div>
                     </div>
                 </div>
@@ -605,32 +608,36 @@
         
         <!-- Contact Start -->
         <div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
-            <div class="container-fluid">
+            <div class="container-f">
                 <!-- <div class="container"> -->
                     <div class="row align-items-center">
-                        <div class="col-md-6"></div>
+                        <div class="col-md"></div>
                         <div class="col-md-6">
                             <div class="contact-form">
                                 <div id="success"></div>
                                 <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                                    <div class="control-group">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                <div class="d-md-flex justify-content-between">
+                                    <div class="control-group col-md-6">
+                                        <div class="gradient-border">
+                                        <input type="text" class="form-control btn" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                        </div>
                                         <p class="help-block"></p>
                                     </div>
-                                    <div class="control-group">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                    <div class="control-group col-md-6">
+                                        <input type="email" class="form-control btn" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
                                         <p class="help-block"></p>
                                     </div>
-                                    <div class="control-group">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                </div>
+                                    <div class="control-group col">
+                                        <input type="text" class="form-control btn" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
                                         <p class="help-block"></p>
                                     </div>
-                                    <div class="control-group">
-                                        <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                    <div class="control-group col">
+                                        <textarea class="form-control btn" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
                                         <p class="help-block"></p>
                                     </div>
-                                    <div>
-                                        <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
+                                    <div class="col">
+                                        <button class="btn  justify-content-end" type="submit" id="sendMessageButton">Send Message</button>
                                     </div>
                                 </form>
                             </div>
@@ -751,5 +758,6 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>
